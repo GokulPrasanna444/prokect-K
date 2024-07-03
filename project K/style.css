@@ -17,6 +17,7 @@ body{
     flex-shrink: 0;
     width: 100%;
     height: 100%;
+    
 }
 
 .right-nav{
@@ -25,7 +26,7 @@ body{
     height: 144px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 
 .right-nav p{
@@ -50,4 +51,40 @@ body{
     align-items: center;
     justify-content:space-evenly;
     justify-items: center;
+}
+
+
+
+/* section css */
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.abt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+    align-items: center;
+    text-align: center;
+    width: 520px;
+
+}
+
+#about{
+    font-size: 32px;
+    font-weight: bolder;
+    background-color: #F6AD58;
+    padding: 12px 32px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: rgb(92, 90, 90);
+    border-style: solid;
+}
+
+#about-content{
+    background-color: transparent;
+    
+
 }
